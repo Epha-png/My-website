@@ -1,0 +1,75 @@
+<!DOCTYPE.html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: New Times Roman, Arial;
+            background-color:light blue;
+        }
+        h1 {
+            color: green;
+        }
+        a {
+            text-decoration: none;
+            color: light blue;
+        }
+        a:hover {
+            color: red;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid blue;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }    
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid medium light gray;
+        }
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: green;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Get in touch with me!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+        <a href="index.html">Home</a> 
+		<a href="about.html">About</a> 
+		<a href="portfolio.html">Portfolio</a> 
+		<a href="gallery.html">Gallery</a>
+    </div>
+</body>
+</html>
+
